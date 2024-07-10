@@ -1,3 +1,5 @@
+pyserial
 streamlit
-streamlit-lottie
+pandas
+
 
