@@ -7,7 +7,7 @@ import pandas as pd
 st.set_page_config(page_title="DHT11 Data Logger", page_icon=":chart_with_upwards_trend:")
 
 # Replace with the correct port for your Arduino
-serial_port = '/dev/cu.usbserial-110'  # Change this to the actual port you found
+serial_port = '/dev/cu.usbserial-1110'  # Change this to the actual port you found
 
 try:
     ser = serial.Serial(serial_port, 9600)  # Connect to Arduino over serial
